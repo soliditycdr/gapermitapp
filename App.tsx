@@ -179,7 +179,7 @@ return (
     {/* Important Beta Notice */}
     <div className="bg-amber-500 text-slate-900 py-1.5 px-4 text-center text-[10px] md:text-xs font-black uppercase tracking-widest flex items-center justify-center gap-2">
         <AlertTriangle size={14} className="stroke-[3px]" />
-        <span>USA DRIVING TESTS: Beta Website | Demo Data Only | Do Not Perform The Test For Now | Development Phase</span>
+        <span>USA DRIVING TESTS: Beta Website | Education Based Website | Demo Data Only | Do Not Perform The Test For Now | Development Phase | Completely Free Website | Do Not Make Any Payment</span>
     </div>
 
     <div className={`w-full transition-all duration-300 ${isScrolled ? '' : 'py-4'}`}>
