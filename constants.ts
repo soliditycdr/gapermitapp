@@ -12,20 +12,23 @@ export const SUPPORTED_STATES: StateConfig[] = [
 export const HERO_SLIDES = [
   {
     id: 1,
-    image: "https://images.unsplash.com/photo-1615482671125-288251909788?q=80&w=1000&auto=format&fit=crop", 
-    alt: "Happy student with car keys showing thumbs up",
+    // New Happy driver image
+    image: "https://images.unsplash.com/photo-1619682817481-e994891cd1f5?q=80&w=2000&auto=format&fit=crop", 
+    alt: "Happy student driver in car",
     caption: "Ready for the Road"
   },
   {
     id: 2,
-    image: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=1000&auto=format&fit=crop",
-    alt: "Driving perspective on a clean road",
+    // Car driving confidently on highway
+    image: "https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=2000&auto=format&fit=crop",
+    alt: "Car driving confidently on American highway",
     caption: "Drive With Confidence"
   },
   {
     id: 3,
-    image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1000&auto=format&fit=crop",
-    alt: "Students studying together happily",
+    // Studying/Preparation context
+    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=2000&auto=format&fit=crop",
+    alt: "Student studying for exam",
     caption: "Master The Rules"
   }
 ];
