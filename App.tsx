@@ -378,10 +378,10 @@ function App() {
                 Start Free Practice
               </button>
               <button 
-                onClick={handleStartMaterials}
+                onClick={() => handleGetAccess(PRICING_PLANS.find(p => p.id === 'premium') || PRICING_PLANS[1])}
                 className="border border-slate-600 hover:border-white text-white text-lg px-8 py-4 rounded-full font-medium transition-all hover:bg-slate-800"
               >
-                Practice Materials
+                Join Beta for Free
               </button>
             </div>
             
