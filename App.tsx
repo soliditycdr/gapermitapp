@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { 
   MapPin, 
@@ -21,6 +22,7 @@ import PracticeMaterialsPage from './components/PracticeMaterialsPage';
 import WhyUsPage from './components/WhyUsPage';
 import PaymentModal from './components/PaymentModal';
 import PremiumDashboard from './components/PremiumDashboard';
+import HolidayEffects from './components/HolidayEffects';
 
 function App() {
   const [selectedState, setSelectedState] = useState<StateConfig>(SUPPORTED_STATES[0]);
@@ -183,6 +185,9 @@ function App() {
   return (
     <div className="min-h-screen font-sans selection:bg-brand-accent selection:text-brand-dark">
       
+      {/* Festive Holiday & New Year Effects */}
+      <HolidayEffects />
+
       {/* Payment Modal */}
       {isPaymentModalOpen && selectedPlan && (
         <PaymentModal 
@@ -210,7 +215,7 @@ function App() {
                 <span className="hidden md:block w-1 h-1 rounded-full bg-cyan-500/50 shadow-[0_0_10px_rgba(34,211,238,0.8)]"></span>
                 <span>No Payments Required</span>
                 <span className="hidden md:block w-1 h-1 rounded-full bg-cyan-500/50 shadow-[0_0_10px_rgba(34,211,238,0.8)]"></span>
-                <span className="text-cyan-200">Q & A Demo</span>
+                <span className="text-cyan-200">Q&A Are Demo</span>
              </div>
         </div>
 
